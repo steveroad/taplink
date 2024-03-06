@@ -1,3 +1,50 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #EBEBEB;
+}
+
+.page-wrapper {
+  max-width: 360px;
+  margin: auto;
+  background-color: #EBEBEB;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  padding: 21px 27px 76px 37px;
+  color: #fff;
+  background: url("../img/bg.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-text-stroke: 0.3px #000;
+
+}
+
+.header_title {
+  font-size: 18px;
+}
+
+.header_desc {
+  font-size: 16px;
+}
+
+.main {
+  position: relative;
+  padding: 13px 27px 50px 27px;
+}
+
+.main_name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main_photo {
+  position: absolute;
+  top: -40px;
+  right: 27px;
+}
