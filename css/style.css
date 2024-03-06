@@ -50,3 +50,33 @@ body {
   width: 90px;
   height: 90px;
 }
+
+.btn {
+  padding-top: 4px;
+}
+
+.btn_pages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn_page.vk {
+  background-color: #4C75A3;
+}
+
+.btn_page.tg {
+  background-color: #2AABEE;
+}
+
+.btn_page.inst {
+  background-color: #E1306C;
+}
