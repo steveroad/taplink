@@ -3,6 +3,7 @@
 }
 
 body {
+  padding: 15px;
   background-color: #EBEBEB;
   font-family: "Ubuntu", sans-serif;
 }
@@ -34,7 +35,7 @@ body {
 
 .main {
   position: relative;
-  padding: 13px 27px 50px 27px;
+  padding: 13px 27px 11px 27px;
 }
 
 .main_name {
@@ -44,7 +45,7 @@ body {
 
 .main_photo {
   position: absolute;
-  top: -40px;
+  top: -45px;
   right: 27px;
   width: 90px;
   height: 90px;
