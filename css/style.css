@@ -17,9 +17,7 @@ body {
 .header {
   padding: 21px 27px 76px 37px;
   color: #fff;
-  background: url("../img/bg.png");
-  background-size: cover;
-  background-position: center;
+  background: url("../img/header/bg.png") no-repeat center / cover;
   border-radius: 15px 15px 0px 0px;
   -webkit-text-stroke: 0.3px #000;
 
