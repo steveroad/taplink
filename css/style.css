@@ -52,12 +52,15 @@ body {
 }
 
 .btn {
-  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0px;
 }
 
 .btn_pages {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0px 20px 10px 20px;
 }
 
 .btn_page {
@@ -79,4 +82,15 @@ body {
 
 .btn_page.inst {
   background-color: #E1306C;
+}
+
+.btn_pages__w {
+  text-align: center;
+}
+
+.btn_page__w {
+  width: 90%;
+  height: 30px;
+  background-color: #000;
+  border-radius: 5px;
 }
